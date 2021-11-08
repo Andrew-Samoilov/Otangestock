@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-title {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 122px;
+  text-align: center;
+
+  color: var(--primary-color);
+  //   max-width: 1151px;
+  margin-top: 86px;
+  margin-bottom: 35px;
+}
+.hero-text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+
+  text-align: center;
+
+  color: var(--primary-color);
+
+  //   max-width: 686px;
+}

@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-name {
+  // font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  /* identical to box height */
+
+  color: var(--accent);
+  margin-left: 19px;
+}
