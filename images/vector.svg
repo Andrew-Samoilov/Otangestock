@@ -1,0 +1,31 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Vector-8" viewBox="0 0 57 32">
+<path fill="#ffb51b" style="fill: var(--color1, #ffb51b)" d="M2.367 10.088c-9.422-8.371 11.543-12.731 23.202-13.865l30.311-2.604 10.674 26.557c-2.119 3.808-9.614 11.5-22.64 11.801-16.282 0.375 0-6.921-3.191-13.091s-6.17 0-15.155 6.17c-8.985 6.17-11.425-4.504-23.202-14.968z"></path>
+</symbol>
+<symbol id="icon-Vector-9" viewBox="0 0 15 32">
+<path d="M4.192 0.727c-5.4-4.117-15.579 10.242-19.993 17.935-3.338 3.069 10.932 12.97 12.913 13.331s16.857-15.377 17.59-20.313c0.734-4.935-3.76-5.808-10.51-10.954z"></path>
+</symbol>
+<symbol id="icon-Vector-27" viewBox="0 0 59 32">
+<path fill="none" stroke="#76bb40" style="stroke: var(--color3, #76bb40)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.7761" d="M58.379 26.346c-13.558 5.106-43.738 7.182-55.991-25.357"></path>
+</symbol>
+<symbol id="icon-Vector-28" viewBox="0 0 41 32">
+<path fill="none" stroke="#ff9b00" style="stroke: var(--color4, #ff9b00)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.2075" d="M-8.332 31.872c1.998-12.435 14.684-35.909 49.448-30.324"></path>
+</symbol>
+<symbol id="icon-Vector-37" viewBox="0 0 20 32">
+<path fill="#ffb51b" style="fill: var(--color1, #ffb51b)" d="M27.266 18.485c7.308 6.989-13.153 11.9-24.297 13.482-5.822 0.992-3.486-21.016 11.293-29.502s3.869 7.283 13.004 16.020z"></path>
+</symbol>
+<symbol id="icon-Vector-38" viewBox="0 0 12 32">
+<path fill="#3a87fe" style="fill: var(--color5, #3a87fe)" d="M10.18 18.485c7.308 6.989-13.153 11.9-24.297 13.482-5.822 0.992-3.486-21.016 11.293-29.502s3.869 7.283 13.004 16.020z"></path>
+</symbol>
+<symbol id="icon-Vector-39" viewBox="0 0 15 32">
+<path fill="#ffb51b" style="fill: var(--color1, #ffb51b)" d="M20.988 0.554c6.292-3.208 4.287 8.623 2.498 14.94l-4.831 16.35-16.039 0.148c-1.555-1.884-4.038-7.366-1.535-14.224 3.129-8.573 3.612 1.413 7.483 1.008s1.26-3.22-0.125-9.169c-1.385-5.949 4.684-5.043 12.549-9.052z"></path>
+</symbol>
+<symbol id="icon-Vector-40" viewBox="0 0 21 32">
+<path fill="#76bb40" style="fill: var(--color3, #76bb40)" d="M27.266 18.485c7.308 6.989-13.153 11.9-24.297 13.482-5.822 0.992-3.486-21.016 11.293-29.502s3.869 7.283 13.004 16.020z"></path>
+</symbol>
+<symbol id="icon-icon" viewBox="0 0 32 32">
+<path fill="#76bb40" style="fill: var(--color3, #76bb40)" d="M27.266 18.485c7.308 6.989-13.153 11.9-24.297 13.482-5.822 0.992-3.486-21.016 11.293-29.502s3.869 7.283 13.004 16.020z"></path>
+</symbol>
+</defs>
+</svg>

@@ -3,7 +3,7 @@
   align-items: center;
 }
 .logo-name {
-  font-family: Proxima Nova Regular;
+  font-family: "Proxima Nova Bold", "Roboto", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
@@ -12,4 +12,17 @@
 
   color: var(--accent);
   margin-left: 19px;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/proxima_nova_bold.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/proxima_nova_bold.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/proxima_nova_bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/proxima_nova_bold.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/proxima_nova_bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/proxima_nova_bold.svg#proxima_nova_bold") format("svg"); /* Chrome < 4, Legacy iOS */
 }
