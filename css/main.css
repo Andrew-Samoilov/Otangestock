@@ -70,6 +70,7 @@ body {
   --primary-color: #000000;
   --accent: #ffab01;
   --white-color: #ffffff;
+  --secondary-accent: #3a87fe;
 }
 
 .container {
@@ -91,7 +92,7 @@ section {
 .logo-name {
   font-family: "Proxima Nova Bold", "Roboto", Arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 60px;
   line-height: 73px;
   /* identical to box height */
@@ -116,7 +117,7 @@ section {
   /* identical to box height */
   color: var(--white-color);
   padding: 35px 80px;
-  background: #3a87fe;
+  background: var(--secondary-accent);
   border-radius: 50px;
   border: none;
 }
@@ -207,7 +208,7 @@ section {
 }
 
 .bg-picture {
-  background: #3a87fe;
+  background: var(--secondary-accent);
 }
 
 .reach {
@@ -241,7 +242,7 @@ section {
 }
 
 .bg-clock {
-  background: #ff9b00;
+  background: var(--accent);
   transform: rotate(45deg);
   margin-bottom: 58px;
 }
@@ -253,7 +254,26 @@ section {
 }
 
 .bg-stars {
-  background: #3a87fe;
+  background: var(--secondary-accent);
   transform: rotate(45deg);
+}
+
+.try {
+  background: url(../images/vector/vector-38.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+
+.try-header {
+  max-width: 1233px;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+}
+
+.try-accent {
+  color: var(--secondary-accent);
 }
 /*# sourceMappingURL=main.css.map */

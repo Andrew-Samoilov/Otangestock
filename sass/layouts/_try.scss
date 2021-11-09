@@ -1,0 +1,17 @@
+.try {
+  background: url(../images/vector/vector-38.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+.try-header {
+  max-width: 1233px;
+
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+}
+.try-accent {
+  color: var(--secondary-accent);
+}
