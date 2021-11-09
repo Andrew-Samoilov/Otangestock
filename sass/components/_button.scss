@@ -13,3 +13,17 @@
   border: none;
   margin-top: 65px;
 }
+
+.button-send {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--white-color);
+  padding: 20px 50px;
+
+  background-color: var(--accent);
+  border-radius: 50px;
+  border: none;
+
+  margin-bottom: 5px;
+}

@@ -123,6 +123,18 @@ section {
   margin-top: 65px;
 }
 
+.button-send {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--white-color);
+  padding: 20px 50px;
+  background-color: var(--accent);
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 5px;
+}
+
 .header-img {
   position: absolute;
   top: 0;
@@ -331,5 +343,53 @@ section {
 .try-text {
   font-weight: bold;
   font-size: 24px;
+}
+
+.variants-header {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.variants-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+  margin-top: -40px;
+  align-items: stretch;
+}
+
+.variants-item {
+  flex-basis: calc(100% / 4 - 40px);
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.variants-sub-header {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.23;
+  margin-bottom: 37px;
+}
+
+.faq {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faq-header {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+footer {
+  margin-bottom: 42px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
