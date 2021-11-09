@@ -113,17 +113,28 @@ section {
   line-height: 35px;
   /* identical to box height */
   color: var(--white-color);
-  padding: 40px 80px;
+  padding: 35px 80px;
   background: #3a87fe;
   border-radius: 50px;
+  border: none;
+}
+
+.header-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1202px;
 }
 
 .hero {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   flex-direction: column;
   padding-top: 86px;
   padding-bottom: 67px;
+  background-image: url("../images/nice-looking-woman.png"), url(../images/vector/vector-9.png);
+  background-position: bottom left 194px, left;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -136,8 +147,8 @@ section {
   color: var(--primary-color);
   display: inline-block;
   max-width: 1100px;
-  margin-top: 86px;
   margin-bottom: 35px;
+  z-index: 1;
 }
 
 .hero-text {
@@ -150,6 +161,8 @@ section {
   color: var(--primary-color);
   display: inline-block;
   max-width: 686px;
+  margin-bottom: 68px;
+  z-index: 1;
 }
 
 .hero-img-girl {
@@ -157,22 +170,6 @@ section {
   width: auto;
   left: 194px;
   top: 198px;
-  z-index: 8;
-}
-
-.hero-vector {
-  color: #ffd278;
-  fill: currentColor;
-  background-color: black;
-}
-
-.hero-vector-9 {
-  position: absolute;
-  left: 0px;
-  top: 252px;
-  color: #ffd278;
-  fill: currentColor;
-  z-index: 7;
 }
 
 @font-face {
