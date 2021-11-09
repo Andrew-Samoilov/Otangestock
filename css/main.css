@@ -79,6 +79,8 @@ body {
 
 section {
   width: 100%;
+  padding-top: 86px;
+  padding-bottom: 42px;
 }
 
 .logo {
@@ -165,21 +167,93 @@ section {
   z-index: 1;
 }
 
-.hero-arc {
-  width: 91px;
-  height: 91px;
-  border-left: 10px solid #76bb40;
-  border-radius: 50px;
-  transform: rotate(-110.64deg);
-  right: 0;
-  bottom: 0;
-}
-
 @font-face {
   font-family: "Proxima Nova Regular";
   src: url("../fonts/proxima_nova_regular.eot");
   /* IE 9 Compatibility Mode */
   src: url("../fonts/proxima_nova_regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_regular.woff2") format("woff2"), url("../fonts/proxima_nova_regular.woff") format("woff"), url("../fonts/proxima_nova_regular.ttf") format("truetype"), url("../fonts/proxima_nova_regular.svg#proxima_nova_regular") format("svg");
   /* Chrome < 4, Legacy iOS */
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.clients-item {
+  flex-basis: calc(100% / 2 - 1px);
+  display: flex;
+}
+
+.clients-text {
+  display: inline-block;
+  max-width: 397px;
+}
+
+.clients-icon {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-like {
+  background: #76bb40;
+}
+
+.bg-picture {
+  background: #3a87fe;
+}
+
+.reach {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url(../images/vector/vector-28.svg), url(../images/vector/vector-37.svg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-size: 345px, 465px;
+}
+
+.reach-header {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  display: inline-block;
+  max-width: 750px;
+  height: 340px;
+}
+
+.reach-txt {
+  display: inline-block;
+  max-width: 577px;
+}
+
+.reach-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.bg-clock {
+  background: #ff9b00;
+  transform: rotate(45deg);
+  margin-bottom: 58px;
+}
+
+.bg-elektro {
+  background: #76bb40;
+  transform: rotate(45deg);
+  margin-bottom: 53px;
+}
+
+.bg-stars {
+  background: #3a87fe;
+  transform: rotate(45deg);
 }
 /*# sourceMappingURL=main.css.map */

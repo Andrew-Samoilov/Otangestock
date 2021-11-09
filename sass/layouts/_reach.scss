@@ -1,0 +1,44 @@
+.reach {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url(../images/vector/vector-28.svg),
+    url(../images/vector/vector-37.svg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-size: 345px, 465px;
+}
+.reach-header {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+
+  display: inline-block;
+  max-width: 750px;
+  height: 340px;
+}
+.reach-txt {
+  display: inline-block;
+  max-width: 577px;
+}
+.reach-list {
+}
+.reach-item {
+  display: flex;
+  align-items: baseline;
+}
+.bg-clock {
+  background: #ff9b00;
+  transform: rotate(45deg);
+  margin-bottom: 58px;
+}
+.bg-elektro {
+  background: #76bb40;
+  transform: rotate(45deg);
+  margin-bottom: 53px;
+}
+.bg-stars {
+  background: #3a87fe;
+  transform: rotate(45deg);
+}

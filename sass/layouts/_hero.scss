@@ -44,26 +44,7 @@
 
   z-index: 1;
 }
-.hero-arc {
-  width: 91px;
-  height: 91px;
-  border-left: 10px solid #76bb40;
-  border-radius: 50px;
-  transform: rotate(-110.64deg);
-  right: 0;
-  bottom: 0;
-}
-// .hero-vector {
-//   color: #ffd278;
-//   fill: currentColor;
-//   background-color: black;
-// }
-// .hero-vector-9 {
-//   position: absolute;
-//   width: auto;
-//   left: 0;
-//   top: 252px;
-// }
+
 @font-face {
   font-family: "Proxima Nova Regular";
   src: url("../fonts/proxima_nova_regular.eot"); /* IE 9 Compatibility Mode */
