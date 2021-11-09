@@ -1,4 +1,7 @@
 .try {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: url(../images/vector/vector-38.svg);
   background-position: left top;
   background-repeat: no-repeat;
@@ -11,7 +14,54 @@
   font-size: 70px;
   line-height: 85px;
   text-align: center;
+
+  margin-bottom: 82px;
 }
 .try-accent {
   color: var(--secondary-accent);
+}
+
+.try-list {
+  display: flex;
+  margin-bottom: 102px;
+}
+.try-item {
+  align-items: center;
+  justify-content: center;
+  max-width: 361px;
+}
+.try-item:not(:last-child) {
+  margin-right: 50px;
+}
+.try-item:nth-child(-n + 2) {
+  width: 266px;
+}
+.try-number {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.23;
+
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  color: white;
+  transform: translate(-50%, -10px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.try-number-2 {
+  background-color: #76bb40;
+}
+.try-number-3 {
+  background-color: var(--secondary-accent);
+}
+.try-arrow {
+  display: flex;
+}
+.try-text {
+  font-weight: bold;
+  font-size: 24px;
 }
