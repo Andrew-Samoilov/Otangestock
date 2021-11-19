@@ -2,11 +2,10 @@
 
 Maket from https://t.me/templateFigma
 
-https://www.figma.com/file/6Abp5xlG8HUCl62L4d6SeE/Otangestock?node-id=0%3A1
-
 Difficulty #easy
 
-C:\Program Files\nodejs
+My design copy:
+https://www.figma.com/file/npbPZ7Xyf4061y6tY2tpk7/Otangestock-(4-my-work)
 
-Destination location:
-D:\SAG-Lenovo\privat\projects\nvm
+Original:
+https://www.figma.com/file/6Abp5xlG8HUCl62L4d6SeE/Otangestock?node-id=0%3A1

@@ -345,6 +345,13 @@ section {
   font-size: 24px;
 }
 
+.variants-img {
+  position: absolute;
+  bottom: -632px;
+  right: 0;
+  width: 585px;
+}
+
 .variants-header {
   font-weight: bold;
   font-size: 70px;
@@ -386,6 +393,13 @@ section {
   line-height: 85px;
   text-align: center;
   margin-bottom: 59px;
+}
+
+.faq-img {
+  display: block;
+  bottom: 590px;
+  right: 0;
+  width: 512px;
 }
 
 footer {
